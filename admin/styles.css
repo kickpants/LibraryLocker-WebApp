@@ -1,0 +1,174 @@
+textarea {
+	resize: none;
+}
+.form-label {
+	font-size: 15px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+	text-align: left;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+	border-width: 0 0 2px 0;
+	border-style: none none solid none;
+	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+.js-hide-label {
+	opacity: 0;
+}
+.js-unhighlight-label {
+	color: #999
+}
+#legend-block {
+	float: left;
+	margin-right: 16px;
+	margin-top: 8px;
+}
+.btn-start-order {
+	background: 0 0 #ffffff;
+	border: 1px solid #2f323a;
+	border-radius: 3px;
+	color: #2f323a;
+	font-family: "Raleway", sans-serif;
+	font-size: 16px;
+	line-height: inherit;
+	margin: 30px 0;
+	padding: 10px 50px;
+	text-transform: uppercase;
+	transition: all 0.25s ease 0s;
+}
+.btn-group1 .button2 {
+	background-color: silver;
+	/* Green */
+	border: 1px solid white;
+	color: white;
+	padding: 16px 16px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	width: 170px;
+	margin-bottom: 4px;
+}
+
+.btn-group1 .button2:not(:last-child) {
+	border-bottom: none;
+	/* Prevent double borders */
+}
+.btn-group1 .button2:hover {
+	background-color: #3e8e41;
+}
+
+#rcorners1 {
+	border-radius: 25px;
+	background: #5cb85c;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	width: 150px;
+	height: 45px;
+	display: inline-block;
+}
+#rcorners2 {
+	border-radius: 25px;
+	background: Silver;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	width: 150px;
+	height: 45px;
+	display: inline-block;
+}
+#rcorners3 {
+	border-radius: 25px;
+	background: Grey;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	width: 150px;
+	height: 45px;
+	display: inline-block;
+}
+#rcorners4 {
+	border-radius: 25px;
+	background: #d9534f;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	width: 150px;
+	height: 45px;
+	display: inline-block;
+}
+.btn-done {
+	border: none;
+	border-radius: 25px;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.done {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+}
+.done:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.btn-genQR {
+	border: none;
+	border-radius: 25px;
+	color: white;
+	padding: 8px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+.genQR {
+	background-color: white;
+	color: black;
+	border: 2px solid grey;
+}
+
+.genQR:hover {
+	background-color: grey;
+	color: white;
+}
+
+#msg{
+	color: black;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+.fade {
+	display: none;
+}
+
+img {
+	display: inline!important;
+}
+
+.qrdiv {
+	padding-top: 20px;
+}
